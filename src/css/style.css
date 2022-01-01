@@ -1,0 +1,211 @@
+/*===============================================================
+            Common Style
+================================================================*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    color: #3333;
+    font-family: Georgia,  sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*==========================================================================
+                            Header Area
+============================================================================*/
+#header_area{
+    background-color: #504e41;
+    overflow: hidden;
+    min-height: 478px;
+}
+.navbar{
+    background: rgba(166,163,144);
+    min-height: 100px;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px 10px;
+
+}
+.navbar ul li a:hover{
+    color: #504e41;
+    border-bottom: 2px solid #ba4e61;
+}
+.des_image img{
+    padding: 30px 0px;
+}
+.header_info{
+    padding: 50px;
+    padding-left: 45px;
+}
+.header_info h1{
+    color: #cccccc;
+    font-size:46px;
+    font-weight: normal;
+}
+.header_info p{
+    color: #cccccc;
+    font-size:18px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+/*=====================================================================
+                    Hero Area
+======================================================================*/
+#hero_area{
+    background:#efe3b9;
+    padding: 30px 0px;
+}
+.inner_hero{
+    overflow: hidden;
+}
+.info h3{
+    color: #333333;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom:5px;
+    border-bottom: 2px dotted #534623;
+}
+.info p{
+    color: #c80000;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*=============================================================================
+                        About info area
+==============================================================================*/
+#about_info{
+    background: #fefdde;
+    padding: 30px 0px;
+}
+.about_des h2{
+    color: #8c8980;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #534623;
+}
+.about_des p{
+    color: #666666;
+    font-size: 16px;
+    font-weight: normal;
+}
+.about_des p a{
+    color: #c80000;
+}
+.about_conf{
+    overflow: hidden;
+}
+.about_conf a{
+    float: right;
+    clear: both;
+    color: #c80000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+.about_conf a i{
+    margin-left: 6px;
+    font-size: 8px;
+}
+.about_conf a:hover{
+    color: #313131;
+}
+.icon_head{
+    max-width:100%;
+    border-bottom: 2px dotted #534623;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.icon_head .image{
+    max-width: 25%;
+    float: left;
+}
+.image img{
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding: 4px;
+}
+.icon_heading{
+    max-width: 75%;
+    float: right;
+}
+.icon_heading h3{
+    color:#666666;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.icon_des p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+/*====================================================================
+                    Top Footer Area
+=====================================================================*/
+#top_footer{
+    background-color: #ffff;
+}
+.inner_top_footer{
+    border-top: 1px dotted #333333;
+}
+.contact_form .child_head{
+    overflow: hidden;
+}
+.child_head h3{
+    color: #383435;
+    font-size: 22px;
+    border-bottom: 1px dotted #504e41;
+    padding-bottom: 10px;
+}
+form label{
+    color: #666666;
+}
+.form-group button{
+    text-transform: uppercase;
+}
+.child_wrapper{
+    overflow: hidden;
+}
+.child_info{
+    width: 31.33%;
+    float: left;
+    margin: 0 1%;
+    padding-right: 15px;
+}
+.child_des p{
+    margin-top: 15px;
+    color: #c80000;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+.contact_des form span{
+    color: #666666;
+    font-size: 15px;
+}
+
+/*============================================================================
+                            Footer Area
+=============================================================================*/
+footer{
+    background-color: #504e41;
+    color: #fefdde;
+}
+footer p{
+    font-size: 14px;
+}

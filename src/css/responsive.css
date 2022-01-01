@@ -1,0 +1,32 @@
+/*Medium Device*/
+@media only screen and (min-width:200px) and (max-width:991px){
+    .des_image img {padding: 30px 0px 10px 0px;}
+    .header_info {padding: 0px;padding-left: 5px;}
+    .header_info h1 {font-size: 40px;}
+    .header_info p {font-size: 16px; line-height: 1.4em;}
+    .icon_head {max-width: 350px;}
+    .icon_head .image {width: 68px;}
+    .icon_heading {max-width: 270px;}
+}
+
+/*Small Device*/
+@media only screen and (min-width:200px) and (max-width:586px){
+    .des_image img {padding: 30px 30px 0px;}
+    .header_info {padding: 30px 30px;}
+    .about_des{padding-bottom: 10px;}
+    .child_info {width: 100%; padding: 0px 30px 0px;}
+}
+
+/*Extra Small Device*/
+@media only screen and (min-width:200px) and (max-width:480px){
+    .header_info h1 {font-size: 35px;}
+    #hero_area, .about_des {padding: 30px;}
+    .about_conf{padding: 0px 30px 10px 30px;}
+}
+
+/*XX Small Device*/
+@media only screen and (min-width:200px) and (max-width:385px){
+    .header_info h1 {font-size: 25px;}
+    .header_info p {font-size: 14px;}
+    .about_conf{display: none;}
+}
