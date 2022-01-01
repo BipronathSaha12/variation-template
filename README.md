@@ -25,5 +25,10 @@ The essential documentations are given below:
 - [Poppeer](https://popper.js.org/docs/v2/)
 
 <hr>
-All Rights Reserved By [@BipronathSaha12](https://github.com/BipronathSaha12/) &copy; 2021
+All Rights Reserved By <em>Bipronath Saha</em> &copy; 2022.
+
+## Author 
+[@BipronathSaha12](https://github.com/bipronathsaha12/)
+
+
   
